@@ -232,10 +232,7 @@ export PAGER=most
 if [ -f /etc/bash_completion ]; then
     . /etc/bash_completion
 fi
-. "/root/.acme.sh/acme.sh.env"
 
-export CF_Key="7e26d5f29dee94c070b3fa77471e5fce96ff6"
-export CF_Email="lucas.moser@live.fr"
 
 EOL
 
