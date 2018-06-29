@@ -1,7 +1,12 @@
 #!/bin/bash
-#
-#	/usr/share/vim/vim80/defaults.vim
-#
+################################################################
+#	Probléme Putty - Copier-Coller
+#	Modifier le fichier /usr/share/vim/vim80/defaults.vim
+#	et mettre en commentaire 
+#	if has('mouse')
+#		set mouse=a
+#	endif
+#################################################################
 #    debserver9 - a bunch of functions used in the other scripts
 #
 #    DEBServer9 - Debian Install Server Scripts
