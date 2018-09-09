@@ -59,14 +59,14 @@ fi
 #=============================================================================
 # Mise a jour de la liste des depots
 #=============================================================================
-echo "
-deb http://deb.debian.org/debian/ stretch main contrib non-free
+#echo "
+#deb http://deb.debian.org/debian/ stretch main contrib non-free
 #deb-src http://deb.debian.org/debian/ stretch main contrib non-free
 
-deb http://deb.debian.org/debian/ stretch-updates main contrib non-free
+#deb http://deb.debian.org/debian/ stretch-updates main contrib non-free
 #deb-src http://deb.debian.org/debian/ stretch-updates main contrib non-free
 
-deb http://deb.debian.org/debian-security stretch/updates main
+#deb http://deb.debian.org/debian-security stretch/updates main
 #deb-src http://deb.debian.org/debian-security stretch/updates main
 
 ###Third Parties Repos
@@ -84,9 +84,9 @@ deb http://deb.debian.org/debian-security stretch/updates main
 #=============================================================================
 # Update
 #=============================================================================
-echo -e "\033[34m========================================================================================================\033[0m"
-echo "Mise à jour de la liste des dépôts"
-echo -e "\033[34m========================================================================================================\033[0m"
+#echo -e "\033[34m========================================================================================================\033[0m"
+#echo "Mise à jour de la liste des dépôts"
+#echo -e "\033[34m========================================================================================================\033[0m"
 apt-get update
 clear
 #=============================================================================
