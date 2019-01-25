@@ -10,6 +10,8 @@ wget -O- https://gitlab.com/tifredfr/debserver/raw/master/debserver7 | /bin/bash
 ### Stretch
 wget -O- https://gitlab.com/tifredfr/debserver/raw/master/debserver9 | /bin/bash
 
+wget -O- https://raw.githubusercontent.com/lm0ser/debserver/master/debserver9 | /bin/bash
+
 ### Testing
 wget -O- https://gitlab.com/tifredfr/debserver/raw/master/debserver-testing | /bin/bash
 
