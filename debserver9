@@ -158,6 +158,11 @@ alias shistory='history | grep'
 # raccourci history
 alias h='history'
 
+# History length
+HISTSIZE=10000
+HISTFILESIZE=20000
+
+
 # Ajout log en couleurs
 ctail() { tail -f \$1 | ccze -A; }
 cless() { ccze -A < \$1 | less -R; }
